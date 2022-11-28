@@ -1,0 +1,21 @@
+@media only screen and (max-width: 420px) {
+    .contentt {
+        flex-direction: column;
+        align-items: center;
+        margin: 0;
+    }
+    .fan,
+    .light {
+        margin: 10px;
+    }
+    .containerr {
+        margin: 0;
+    }
+    p {
+        font-size: 24px;
+    }
+    .fan,
+    .light>img {
+        width: 80%;
+    }
+}
