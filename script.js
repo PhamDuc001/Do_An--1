@@ -427,12 +427,11 @@ var fullTime = today.getHours() + ':' + today.getMinutes()
 todayElement.innerHTML = fulldate   
 var dayEnglish = ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"]
 
-for (var i = 2; i < 9; i++) {
+for (var i = 1; i < 8; i++) {
     if (i == day) {
-        day = dayEnglish[i - 2]
+        day = dayEnglish[i - 1]
     }
 }
-day = day==1 ? "Monday": day
 console.log(day);
 dateElement.innerHTML = day  
 if (today.getMinutes() > 10) {
