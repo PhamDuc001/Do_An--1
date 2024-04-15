@@ -708,6 +708,7 @@ header.mobile-header-1 .site-logo {
 }
 header.mobile-header-1 .site-logo img {
   max-height: 30px;
+  display: none;
 }
 header.mobile-header-1.light {
   background: #F9F9FF;
